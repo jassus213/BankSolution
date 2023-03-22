@@ -1,0 +1,17 @@
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.Sql.deps.json
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.Sql.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.Sql.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.UserInfo.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\bin\Debug\net6.0\User.Dal.UserInfo.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.csproj.AssemblyReference.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.AssemblyInfoInputs.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.AssemblyInfo.cs
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.csproj.CoreCompileInputs.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.csproj.CopyComplete
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\refint\User.Dal.Sql.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\User.Dal.Sql.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.Sql\obj\Debug\net6.0\ref\User.Dal.Sql.dll

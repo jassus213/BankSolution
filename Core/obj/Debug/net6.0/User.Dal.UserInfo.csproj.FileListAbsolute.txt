@@ -1,0 +1,12 @@
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\bin\Debug\net6.0\User.Dal.UserInfo.deps.json
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\bin\Debug\net6.0\User.Dal.UserInfo.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\bin\Debug\net6.0\User.Dal.UserInfo.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.csproj.AssemblyReference.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.AssemblyInfoInputs.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.AssemblyInfo.cs
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.csproj.CoreCompileInputs.cache
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\refint\User.Dal.UserInfo.dll
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\User.Dal.UserInfo.pdb
+C:\Users\JaSSuS\Projects\WebApplication1\User.Dal.UserInfo\obj\Debug\net6.0\ref\User.Dal.UserInfo.dll
