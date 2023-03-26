@@ -1,0 +1,12 @@
+/Users/JaSSuS/Projects/BankSolution/User/bin/Debug/net6.0/User.deps.json
+/Users/JaSSuS/Projects/BankSolution/User/bin/Debug/net6.0/User.dll
+/Users/JaSSuS/Projects/BankSolution/User/bin/Debug/net6.0/User.pdb
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.csproj.AssemblyReference.cache
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.AssemblyInfoInputs.cache
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.AssemblyInfo.cs
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.csproj.CoreCompileInputs.cache
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.dll
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/refint/User.dll
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/User.pdb
+/Users/JaSSuS/Projects/BankSolution/User/obj/Debug/net6.0/ref/User.dll

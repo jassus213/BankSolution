@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Authentication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Authentication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Authentication.dll": {}
+        }
+      },
+      "Authentication.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Authentication": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Authentication.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Authentication.Dal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Authentication/1.0.0": {
+      "type": "project",
+      "path": "../Authentication/Authentication.csproj",
+      "msbuildProject": "../Authentication/Authentication.csproj"
+    },
+    "Authentication.Dal/1.0.0": {
+      "type": "project",
+      "path": "../Authentication.Dal/Authentication.Dal.csproj",
+      "msbuildProject": "../Authentication.Dal/Authentication.Dal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Authentication.Dal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal.MySql/Authentication.Dal.MySql.csproj",
+      "projectName": "Authentication.Dal.MySql",
+      "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal.MySql/Authentication.Dal.MySql.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal.MySql/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj": {
+              "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

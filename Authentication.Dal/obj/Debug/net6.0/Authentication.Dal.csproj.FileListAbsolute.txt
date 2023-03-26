@@ -1,0 +1,15 @@
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/bin/Debug/net6.0/Authentication.Dal.deps.json
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/bin/Debug/net6.0/Authentication.Dal.dll
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/bin/Debug/net6.0/Authentication.Dal.pdb
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/bin/Debug/net6.0/Authentication.dll
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/bin/Debug/net6.0/Authentication.pdb
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.csproj.AssemblyReference.cache
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.AssemblyInfoInputs.cache
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.AssemblyInfo.cs
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.csproj.CoreCompileInputs.cache
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.csproj.CopyComplete
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.dll
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/refint/Authentication.Dal.dll
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/Authentication.Dal.pdb
+/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/Debug/net6.0/ref/Authentication.Dal.dll

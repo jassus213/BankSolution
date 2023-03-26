@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "kFEWRvFaIf4OvlRatOrikeQY7g/Owp6pY9uKNrBiNNQ=",
+  "Source": "WebApplication1",
+  "BasePath": "_content/WebApplication1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication1/wwwroot",
+      "Source": "WebApplication1",
+      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "BasePath": "_content/WebApplication1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/index.html",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/main.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/main.css"
+    },
+    {
+      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/main.js",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/main.js"
+    }
+  ]
+}
