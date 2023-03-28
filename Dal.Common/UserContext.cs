@@ -1,6 +1,8 @@
-﻿using Authentication.Dal.Entity;
+﻿using Authentication.Dal;
+using Authentication.Dal.Entity;
 
 using Microsoft.EntityFrameworkCore;
+using User.Dal;
 
 namespace Dal.Common;
 
@@ -12,10 +14,12 @@ public class UserContext : DbContext
     public UserContext(DbContextOptions<UserContext> options)
         : base(options)
     {
-        Database.EnsureCreated();
+        //Database.EnsureCreated();
     }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.ApplyConfiguration(new UserConfiguration());
+        modelBuilder.ApplyConfiguration(new LoginInfoConfiguration());
     }
 }

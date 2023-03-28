@@ -1,53 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using User.Dal;
-using WebApplication1.Entity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using User.Dal.Interfaces;
 
 namespace WebApplication1.Controllers;
 
-
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 public class UsersController
 {
     private readonly ILogger<UsersController> _logger;
-    private readonly IUserStorage _userStorage;
+    private readonly IUserProvider _userProvider;
     
-    public UsersController(ILogger<UsersController> logger, IUserStorage userStorage)
+    public UsersController(ILogger<UsersController> logger, IUserProvider userProvider)
     {
         _logger = logger;
-        _userStorage = userStorage;
+        _userProvider = userProvider;
     }
-    
-    [HttpGet("GetInfoByName")]
-    public async Task<IEnumerable<User.Entity.User>> GetInfoByName([FromQuery]IEnumerable<string> names)
-    {
-        var result = await _userStorage.GetAsyncByName(names, default);
-        
-        return result;
-    }
-    
-    [HttpGet("GetInfoByIds")]
-    public async Task<IEnumerable<User.Entity.User>> GetInfoByIds([FromQuery] IEnumerable<string> ids)
-    {
-        var result = await _userStorage.GetAsyncByIds(ids, default);
-        
-        return result;
-    }
-    
-    /*[HttpGet("LoginUser")]
-    public async Task<User.Dal.Entity.User> TryLogin([FromQuery]LoginInfoUser infoUser)
-    {
-        var result = await _userStorage.TryLoginAsync(infoUser.Login, infoUser.Password, default);
 
+    [HttpGet("{id:int}")]
+    public async Task<IEnumerable<User.Entity.UserInfo>> GetInfoByIds([FromRoute] int id)
+    {
+        var result = await _userProvider.GetAsyncByIds(new []{id}, default);
+        
         return result;
     }
-        
-    [HttpPost("RegisterUser")]
-    public async Task<User.Dal.Entity.User> RegisterUser([FromBody]CreateUserRequest userRequest)
-    {
-        var result = await _userStorage.TryRegisterAsync(userRequest.Login, userRequest.Password, userRequest.Name, userRequest.SecondName,default);
-        
-        return result;
-    }*/
 
 }

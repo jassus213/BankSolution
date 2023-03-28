@@ -1,33 +1,142 @@
 {
   "format": 1,
   "restore": {
-    "/Users/JaSSuS/Projects/BankSolution/API/WebApplication1.csproj": {}
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\WebApplication1.csproj": {}
   },
   "projects": {
-    "/Users/JaSSuS/Projects/BankSolution/API/WebApplication1.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/API/WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/API/WebApplication1.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/API/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/User.Dal.MySql.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/User.Dal.MySql.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\Authentication.Dal.MySql.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\Authentication.Dal.MySql.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\Authentication.Core.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\Authentication.Core.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\User.Dal.MySql.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\User.Dal.MySql.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\Authentication.Dal.MySql.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\Authentication.Dal.MySql.csproj",
+        "projectName": "Authentication.Dal.MySql",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\Authentication.Dal.MySql.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal.MySql\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj"
               }
             }
           }
@@ -44,37 +153,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
+              "version": "[7.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -83,46 +166,50 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj",
         "projectName": "Authentication.Dal",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/JaSSuS/Projects/BankSolution/Authentication/Authentication.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication/Authentication.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj"
               }
             }
           }
@@ -136,13 +223,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -151,26 +245,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/Authentication/Authentication.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/Authentication/Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication/Authentication.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/Authentication/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -188,13 +288,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -203,37 +314,49 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/Dal.Common/Dal.Common.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\Authentication.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/Dal.Common/Dal.Common.csproj",
-        "projectName": "Dal.Common",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/Dal.Common/Dal.Common.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/Dal.Common/obj/",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\Authentication.Core.csproj",
+        "projectName": "Authentication.Core",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\Authentication.Core.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Bank\\Authentication.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/Authentication.Dal/Authentication.Dal.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj"
               },
-              "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication\\Authentication.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj"
               }
             }
           }
@@ -248,9 +371,89 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj",
+        "projectName": "Dal.Common",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Authentication.Dal\\Authentication.Dal.csproj"
+              },
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -259,7 +462,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -268,37 +472,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/User.Dal.MySql.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\User.Dal.MySql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/User.Dal.MySql.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\User.Dal.MySql.csproj",
         "projectName": "User.Dal.MySql",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/User.Dal.MySql.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal.MySql/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\User.Dal.MySql.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal.MySql\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/JaSSuS/Projects/BankSolution/Dal.Common/Dal.Common.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/Dal.Common/Dal.Common.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\Dal.Common\\Dal.Common.csproj"
               },
-              "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj"
               }
             }
           }
@@ -313,28 +523,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[8.0.0-preview.2.23128.3, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -346,7 +534,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -355,34 +544,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj",
         "projectName": "User.Dal",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal/User.Dal.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/User.Dal/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\User.Dal.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Dal\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/JaSSuS/Projects/BankSolution/User/User.csproj": {
-                "projectPath": "/Users/JaSSuS/Projects/BankSolution/User/User.csproj"
+              "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj": {
+                "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj"
               }
             }
           }
@@ -402,7 +597,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -411,26 +607,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/JaSSuS/Projects/BankSolution/User/User.csproj": {
+    "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/JaSSuS/Projects/BankSolution/User/User.csproj",
+        "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj",
         "projectName": "User",
-        "projectPath": "/Users/JaSSuS/Projects/BankSolution/User/User.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/JaSSuS/Projects/BankSolution/User/obj/",
+        "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj",
+        "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JaSSuS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -452,6 +654,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             }
           },
           "imports": [
@@ -460,7 +666,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -469,7 +676,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

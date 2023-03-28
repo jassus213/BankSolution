@@ -14,7 +14,7 @@
       });
       
       xhr.onload = () => {
-          if (xhr.readyState == 4 && xhr.status == 201) {
+          if (xhr.readyState === 4 && xhr.status === 201) {
               const response = JSON.parse(xhr.responseText);
               const token = response.token;
 

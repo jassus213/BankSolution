@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kFEWRvFaIf4OvlRatOrikeQY7g/Owp6pY9uKNrBiNNQ=",
+  "Hash": "3iVJeFXxpW8kO6zsDEk97IVmmdTKoHe1yneW27weU38=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "WebApplication1/wwwroot",
+      "Name": "WebApplication1\\wwwroot",
       "Source": "WebApplication1",
-      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/index.html",
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\index.html",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/main.css",
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\main.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "main.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.css"
+      "OriginalItemSpec": "wwwroot\\main.css"
     },
     {
-      "Identity": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/main.js",
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\main.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/JaSSuS/Projects/BankSolution/API/wwwroot/",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "main.js",
       "AssetKind": "All",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.js"
+      "OriginalItemSpec": "wwwroot\\main.js"
     }
   ]
 }

@@ -1,0 +1,8 @@
+﻿{
+  "JwtConfig": {
+    "Secret": "pR-3MLh5e_qnzd!UzFkgZDwTgRCjKHCL",
+    "Issuer": "Bank.com",
+    "Audience": "API"
+  }
+}
+  
