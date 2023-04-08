@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3iVJeFXxpW8kO6zsDEk97IVmmdTKoHe1yneW27weU38=",
+  "Hash": "ZOuGUnRRLsNi+tyP6SEU0ZHogsvOVsO5Uw1G1shd3zE=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\features.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
-      "RelativePath": "index.html",
+      "RelativePath": "features.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot\\features.css"
+    },
+    {
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\loginpage.html",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "loginpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\loginpage.html"
     },
     {
       "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\main.css",
@@ -66,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\mainpage.html",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "mainpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mainpage.html"
+    },
+    {
+      "Identity": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\registerpage.html",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\API\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "registerpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\registerpage.html"
     }
   ]
 }

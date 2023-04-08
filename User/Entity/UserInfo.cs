@@ -2,6 +2,6 @@ namespace User.Entity;
 
 public class UserInfo
 {
-    public string Name { get; set; }
-    public string SecondName { get; set; }
+    public string Name { get; init; }
+    public string SecondName { get; init; }
 }

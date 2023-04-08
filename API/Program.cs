@@ -1,6 +1,7 @@
 using System.Text;
 using Authentication;
 using Authentication.Core;
+using Authentication.Core.Factories;
 using Authentication.Dal;
 using Authentication.Dal.Sql;
 using Dal.Common;
@@ -10,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using User.Dal;
 using User.Dal.Interfaces;
 using User.Dal.MySql;
+using User.Factories;
 using AuthenticationManager = Authentication.Dal.Sql.AuthenticationManager;
 using IAuthenticationManager = Authentication.Dal.IAuthenticationManager;
 
@@ -22,11 +24,6 @@ var configuration = new ConfigurationBuilder()
     .AddJsonFile("authenticationoptions.json")
     .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
     .Build();
-
-
-
-
-
 
 
 
@@ -80,6 +77,7 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.Configure<AuthenticationOptions>(configuration.GetSection("JwtConfig"));
+builder.Services.AddSingleton<UserLoginInfoFactory>();
 
 #endregion
 
@@ -87,6 +85,7 @@ builder.Services.Configure<AuthenticationOptions>(configuration.GetSection("JwtC
 
 builder.Services.AddScoped<IUserProvider, UserProvider>();
 builder.Services.AddScoped<IUserManager, UserManager>();
+builder.Services.AddSingleton<UserInfoFactory>();
 
 #endregion
 

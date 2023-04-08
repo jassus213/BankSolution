@@ -1,8 +1,5 @@
-﻿using Authentication.Dal;
-using Authentication.Dal.Entity;
-
+﻿using Authentication.Dal.Entity;
 using Microsoft.EntityFrameworkCore;
-using User.Dal;
 
 namespace Dal.Common;
 

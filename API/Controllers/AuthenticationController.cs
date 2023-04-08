@@ -1,7 +1,6 @@
 ﻿using Authentication;
 using Authentication.Core;
 using Authentication.Core.Entity;
-using Authentication.Dal.Entity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers;
@@ -21,7 +20,7 @@ public class AuthenticationController
     }
     
     [HttpPost("LoginUser")]
-    public async Task<string> TryLogin([FromBody]LoginEntity infoUser, CancellationToken token)
+    public async Task<string> LoginUser([FromBody]LoginEntity infoUser, CancellationToken token)
     {
         var result = await _loginManager.AsyncLogin(infoUser.Login, infoUser.Password, Providers.Internal, token);
 
@@ -29,7 +28,7 @@ public class AuthenticationController
     }
         
     [HttpPost("RegisterUser")]
-    public async Task<string> RegisterUser([FromBody]LoginEntity userRequest, CancellationToken token)
+    public async Task<string> RegisterUser([FromBody]RegisterEntity userRequest, CancellationToken token)
     {
         var result = await _loginManager.AsyncRegister(userRequest.Login, userRequest.Password,Providers.Internal, userRequest.Name, userRequest.SecondName, token);
         

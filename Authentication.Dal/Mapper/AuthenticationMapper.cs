@@ -15,4 +15,15 @@ public static class AuthenticationMapper
             Provider = userLogin.Provider
         };
     }
+
+    public static UserLogin Map(UserLoginInfo userLoginInfo)
+    {
+        return new UserLogin()
+        {
+            Id = userLoginInfo.Id,
+            Login = userLoginInfo.Login,
+            Password = userLoginInfo.Password,
+            Provider = userLoginInfo.Provider
+        };
+    }
 }

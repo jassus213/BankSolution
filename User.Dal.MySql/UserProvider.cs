@@ -3,8 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using User.Dal.Interfaces;
 using User.Dal.Mapper;
 
-// ReSharper disable All
-
 
 namespace User.Dal.MySql;
 

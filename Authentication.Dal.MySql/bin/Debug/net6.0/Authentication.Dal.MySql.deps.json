@@ -655,10 +655,6 @@
         }
       },
       "User/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
-          "System.IdentityModel.Tokens.Jwt": "6.27.0"
-        },
         "runtime": {
           "User.dll": {}
         }

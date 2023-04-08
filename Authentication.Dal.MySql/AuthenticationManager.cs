@@ -1,4 +1,5 @@
-﻿using Authentication.Dal.Entity;
+﻿using Authentication.Dal.Mapper;
+using Authentication.Entity;
 using Dal.Common;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,7 +13,7 @@ public class AuthenticationManager : IAuthenticationManager
     {
         _contextFactory = contextFactory;
     }
-    public async Task<IEnumerable<int>> AddUsersAsync(IEnumerable<UserLogin> userLoginInfos, CancellationToken token)
+    public async Task<IEnumerable<int>> AddUsersAsync(IEnumerable<UserLoginInfo> userLoginInfos, CancellationToken token)
     {
         await using var context = await _contextFactory.CreateDbContextAsync(token);
 
@@ -20,7 +21,7 @@ public class AuthenticationManager : IAuthenticationManager
 
         foreach (var userLoginInfo in userLoginInfos)
         {
-            await context.UserLogins.AddAsync(userLoginInfo, token);
+            await context.UserLogins.AddAsync(AuthenticationMapper.Map(userLoginInfo), token);
             idList.Add(userLoginInfo.Id);
         }
 

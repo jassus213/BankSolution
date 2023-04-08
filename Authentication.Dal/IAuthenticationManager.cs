@@ -1,8 +1,8 @@
-﻿using Authentication.Dal.Entity;
+﻿using Authentication.Entity;
 
 namespace Authentication.Dal;
 
 public interface IAuthenticationManager
 {
-    Task<IEnumerable<int>> AddUsersAsync(IEnumerable<UserLogin> userLoginInfos, CancellationToken token);
+    Task<IEnumerable<int>> AddUsersAsync(IEnumerable<UserLoginInfo> userLoginInfos, CancellationToken token);
 }
