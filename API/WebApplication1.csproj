@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Authentication.Core\Authentication.Core.csproj" />
     <ProjectReference Include="..\Authentication.Dal.MySql\Authentication.Dal.MySql.csproj" />
     <ProjectReference Include="..\Bank\Authentication.Core\Authentication.Core.csproj" />
     <ProjectReference Include="..\User.Dal.MySql\User.Dal.MySql.csproj" />

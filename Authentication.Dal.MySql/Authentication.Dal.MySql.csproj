@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Authentication.Core\Authentication.Core.csproj" />
       <ProjectReference Include="..\Authentication.Dal\Authentication.Dal.csproj" />
       <ProjectReference Include="..\Bank\Authentication.Core\Authentication.Core.csproj" />
       <ProjectReference Include="..\User.Dal.MySql\User.Dal.MySql.csproj" />
