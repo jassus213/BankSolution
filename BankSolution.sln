@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{EEE2C8B2-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Dal", "Authentication.Dal\Authentication.Dal.csproj", "{86EAE252-585F-4917-82F7-9F858BD441FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User", "User\User.csproj", "{F1F0E970-3403-439B-8668-39B98BDAEBC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Core", "User.Core\User.Core.csproj", "{F1F0E970-3403-439B-8668-39B98BDAEBC9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Dal.MySql", "Authentication.Dal.MySql\Authentication.Dal.MySql.csproj", "{4C369238-176C-4530-BA4D-4FBA1964750A}"
 EndProject

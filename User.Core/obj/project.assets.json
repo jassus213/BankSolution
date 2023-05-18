@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj",
-      "projectName": "User",
-      "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj",
+      "projectUniqueName": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Core\\User.Core.csproj",
+      "projectName": "User.Core",
+      "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Core\\User.Core.csproj",
       "packagesPath": "C:\\Users\\JaSSuS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\obj\\",
+      "outputPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "User/1.0.0": {
+      "User.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/User.dll": {}
+          "bin/placeholder/User.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/User.dll": {}
+          "bin/placeholder/User.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "User/1.0.0": {
+    "User.Core/1.0.0": {
       "type": "project",
-      "path": "../User/User.csproj",
-      "msbuildProject": "../User/User.csproj"
+      "path": "../User.Core/User.Core.csproj",
+      "msbuildProject": "../User.Core/User.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "User >= 1.0.0"
+      "User.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,8 +57,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj": {
-              "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User\\User.csproj"
+            "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Core\\User.Core.csproj": {
+              "projectPath": "C:\\Users\\JaSSuS\\Projects\\BankSolution\\User.Core\\User.Core.csproj"
             }
           }
         }

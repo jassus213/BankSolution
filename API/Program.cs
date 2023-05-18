@@ -84,7 +84,7 @@ builder.Services.AddSingleton<AuthenticationFactory>();
 
 #endregion
 
-#region User
+#region User.Core
 
 builder.Services.AddScoped<IUserProvider, UserProvider>();
 builder.Services.AddScoped<IUserManager, UserManager>();

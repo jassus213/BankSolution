@@ -1260,21 +1260,21 @@
           "bin/placeholder/Authentication.Dal.MySql.dll": {}
         }
       },
-      "User/1.0.0": {
+      "User.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/User.dll": {}
+          "bin/placeholder/User.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/User.dll": {}
+          "bin/placeholder/User.Core.dll": {}
         }
       },
       "User.Dal/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "User": "1.0.0"
+          "User.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/User.Dal.dll": {}
@@ -3701,10 +3701,10 @@
       "path": "../Authentication.Dal.MySql/Authentication.Dal.MySql.csproj",
       "msbuildProject": "../Authentication.Dal.MySql/Authentication.Dal.MySql.csproj"
     },
-    "User/1.0.0": {
+    "User.Core/1.0.0": {
       "type": "project",
-      "path": "../User/User.csproj",
-      "msbuildProject": "../User/User.csproj"
+      "path": "../User.Core/User.Core.csproj",
+      "msbuildProject": "../User.Core/User.Core.csproj"
     },
     "User.Dal/1.0.0": {
       "type": "project",
