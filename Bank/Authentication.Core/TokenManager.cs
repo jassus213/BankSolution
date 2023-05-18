@@ -2,7 +2,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Authentication.Entity;
+using Authentication.Core.Entity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
@@ -18,7 +18,7 @@ public class TokenManager : ITokenManager
     }
     
     
-    public string CreateToken(UserLoginInfo user, TimeSpan lifetime)
+    public string CreateToken(AuthenticationInfo user, TimeSpan lifetime)
     {
         if (_configuration == null)
             throw new ApplicationException("Configuration missing");
@@ -54,7 +54,7 @@ public class TokenManager : ITokenManager
         return tokenHandler.WriteToken(jwt);
     }
     
-    private static ClaimsIdentity CreateIdentity(UserLoginInfo user)
+    private static ClaimsIdentity CreateIdentity(AuthenticationInfo user)
     {
         if (user == null)
             return null;

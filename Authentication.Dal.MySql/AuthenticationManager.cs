@@ -1,28 +1,31 @@
-﻿using Authentication.Dal.Mapper;
-using Authentication.Entity;
+﻿using Authentication.Core.Entity;
+using Authentication.Dal.Mapper;
 using Dal.Common;
 using Microsoft.EntityFrameworkCore;
+using User.Dal.MySql;
 
 namespace Authentication.Dal.Sql;
 
 public class AuthenticationManager : IAuthenticationManager
 {
-    private readonly IDbContextFactory<UserContext> _contextFactory;
-    
-    public AuthenticationManager(IDbContextFactory<UserContext> contextFactory)
+    private readonly IDbContextFactory<AuthenticationContext> _contextFactory;
+
+    public AuthenticationManager(IDbContextFactory<AuthenticationContext> contextFactory)
     {
         _contextFactory = contextFactory;
     }
-    public async Task<IEnumerable<int>> AddUsersAsync(IEnumerable<UserLoginInfo> userLoginInfos, CancellationToken token)
+
+    public async Task<IEnumerable<int>> AddUsersAsync(IEnumerable<AuthenticationInfo> authenticationInfos,
+        CancellationToken token)
     {
         await using var context = await _contextFactory.CreateDbContextAsync(token);
 
         var idList = new List<int>();
 
-        foreach (var userLoginInfo in userLoginInfos)
+        foreach (var authenticationInfo in authenticationInfos)
         {
-            await context.UserLogins.AddAsync(AuthenticationMapper.Map(userLoginInfo), token);
-            idList.Add(userLoginInfo.Id);
+            await context.Authentication.AddAsync(AuthenticationMapper.Map(authenticationInfo), token);
+            idList.Add(authenticationInfo.Id);
         }
 
         await context.SaveChangesAsync(token);

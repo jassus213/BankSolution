@@ -1,8 +1,6 @@
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.Dal.deps.json
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.Dal.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.Dal.pdb
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.dll
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\Authentication.Dal.csproj.AssemblyReference.cache
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\Authentication.Dal.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\Authentication.Dal.AssemblyInfoInputs.cache
@@ -13,3 +11,5 @@ C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\Authen
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\refint\Authentication.Dal.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\Authentication.Dal.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\obj\Debug\net6.0\ref\Authentication.Dal.dll
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.Core.dll
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal\bin\Debug\net6.0\Authentication.Core.pdb

@@ -1,5 +1,5 @@
-﻿using Authentication.Dal.Mapper;
-using Authentication.Entity;
+﻿using Authentication.Core.Entity;
+using Authentication.Dal.Mapper;
 using Dal.Common;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,28 +7,28 @@ namespace Authentication.Dal.Sql;
 
 public class AuthenticationProvider : IAuthenticationProvider
 {
-    private readonly IDbContextFactory<UserContext> _contextFactory;
+    private readonly IDbContextFactory<AuthenticationContext> _contextFactory;
 
-    public AuthenticationProvider(IDbContextFactory<UserContext> contextFactory)
+    public AuthenticationProvider(IDbContextFactory<AuthenticationContext> contextFactory)
     {
         _contextFactory = contextFactory;
     }
 
-    public async Task<IEnumerable<UserLoginInfo>> GetAsyncById(IEnumerable<int> ids, CancellationToken token)
+    public async Task<IEnumerable<AuthenticationInfo>> GetAsyncById(IEnumerable<int> ids, CancellationToken token)
     {
         await using var context = await _contextFactory.CreateDbContextAsync(token);
 
-        var usersRequest = await context.UserLogins.Where(x => ids.Contains(x.Id)).ToArrayAsync(cancellationToken: token);
+        var usersRequest = await context.Authentication.Where(x => ids.Contains(x.Id)).ToArrayAsync(cancellationToken: token);
 
         var result = usersRequest.Select(AuthenticationMapper.Map).ToArray();
         return result;
     }
 
-    public async Task<IEnumerable<UserLoginInfo>> GetAsyncByLogin(IEnumerable<string> logins, CancellationToken token)
+    public async Task<IEnumerable<AuthenticationInfo>> GetAsyncByLogin(IEnumerable<string> logins, CancellationToken token)
     {
         await using var context = await _contextFactory.CreateDbContextAsync(token);
 
-        var usersRequest = await context.UserLogins.Where(x => logins.Contains(x.Login)).ToArrayAsync(cancellationToken: token);
+        var usersRequest = await context.Authentication.Where(x => logins.Contains(x.Login)).ToArrayAsync(token);
 
         var result = usersRequest.Select(AuthenticationMapper.Map).ToArray();
         return result;

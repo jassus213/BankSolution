@@ -9,11 +9,12 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Authentication.Dal\Authentication.Dal.csproj" />
-      <ProjectReference Include="..\Dal.Common\Dal.Common.csproj" />
+      <ProjectReference Include="..\Bank\Authentication.Core\Authentication.Core.csproj" />
+      <ProjectReference Include="..\User.Dal.MySql\User.Dal.MySql.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
       <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
     </ItemGroup>
 

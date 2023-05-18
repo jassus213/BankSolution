@@ -1,9 +1,9 @@
-using Authentication.Entity;
+using Authentication.Core.Entity;
 
 namespace Authentication.Dal;
 
 public interface IAuthenticationProvider
 {
-    Task<IEnumerable<UserLoginInfo>> GetAsyncById(IEnumerable<int> ids, CancellationToken token);
-    Task<IEnumerable<UserLoginInfo>> GetAsyncByLogin(IEnumerable<string> logins, CancellationToken token);
+    Task<IEnumerable<AuthenticationInfo>> GetAsyncById(IEnumerable<int> ids, CancellationToken token);
+    Task<IEnumerable<AuthenticationInfo>> GetAsyncByLogin(IEnumerable<string> logins, CancellationToken token);
 }

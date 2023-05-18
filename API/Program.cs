@@ -1,14 +1,11 @@
 using System.Text;
 using Authentication;
 using Authentication.Core;
-using Authentication.Core.Factories;
 using Authentication.Dal;
 using Authentication.Dal.Sql;
-using Dal.Common;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using User.Dal;
 using User.Dal.Interfaces;
 using User.Dal.MySql;
 using User.Factories;
@@ -36,6 +33,12 @@ builder.Services.AddDbContext<UserContext>(options =>
 
 builder.Services.AddDbContextFactory<UserContext>(options =>
     options.UseSqlServer(connectionString), ServiceLifetime.Scoped);
+
+
+builder.Services.AddDbContext<AuthenticationContext>(options => options.UseSqlServer(connectionString!));
+
+builder.Services.AddDbContextFactory<AuthenticationContext>(options => options.UseSqlServer(connectionString!),
+    ServiceLifetime.Scoped);
 
 #endregion
 
@@ -77,7 +80,7 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.Configure<AuthenticationOptions>(configuration.GetSection("JwtConfig"));
-builder.Services.AddSingleton<UserLoginInfoFactory>();
+builder.Services.AddSingleton<AuthenticationFactory>();
 
 #endregion
 

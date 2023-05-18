@@ -2,13 +2,9 @@ C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Dal.MySql.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Dal.MySql.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Dal.dll
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.dll
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Dal.Common.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.Dal.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Dal.pdb
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Dal.Common.pdb
-C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.Dal.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\obj\Debug\net6.0\Authentication.Dal.MySql.csproj.AssemblyReference.cache
@@ -21,3 +17,7 @@ C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\obj\Debug\net6.0\
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\obj\Debug\net6.0\refint\Authentication.Dal.MySql.dll
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\obj\Debug\net6.0\Authentication.Dal.MySql.pdb
 C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\obj\Debug\net6.0\ref\Authentication.Dal.MySql.dll
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Core.dll
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.Dal.MySql.dll
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\Authentication.Core.pdb
+C:\Users\JaSSuS\Projects\BankSolution\Authentication.Dal.MySql\bin\Debug\net6.0\User.Dal.MySql.pdb

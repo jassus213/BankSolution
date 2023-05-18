@@ -1,13 +1,12 @@
-﻿using Authentication.Dal.Entity;
-using Authentication.Entity;
+﻿using Authentication.Core.Entity;
 
 namespace Authentication.Dal.Mapper;
 
 public static class AuthenticationMapper
 {
-    public static UserLoginInfo Map(UserLogin userLogin)
+    public static AuthenticationInfo Map(Core.Entity.Authentication userLogin)
     {
-        return new UserLoginInfo()
+        return new AuthenticationInfo()
         {
             Id = userLogin.Id,
             Login = userLogin.Login,
@@ -16,14 +15,14 @@ public static class AuthenticationMapper
         };
     }
 
-    public static UserLogin Map(UserLoginInfo userLoginInfo)
+    public static Core.Entity.Authentication Map(AuthenticationInfo authenticationInfo)
     {
-        return new UserLogin()
+        return new Core.Entity.Authentication
         {
-            Id = userLoginInfo.Id,
-            Login = userLoginInfo.Login,
-            Password = userLoginInfo.Password,
-            Provider = userLoginInfo.Provider
+            Id = authenticationInfo.Id,
+            Login = authenticationInfo.Login,
+            Password = authenticationInfo.Password,
+            Provider = authenticationInfo.Provider
         };
     }
 }
